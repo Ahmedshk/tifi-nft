@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main_section{
+    background-image: url('./images/section1_bg.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+
+.container{
+    max-width: 90%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.header img{
+    max-width: 250px;
+    height: 50px;
+}
+
+.header_text p{
+    margin: 0;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header_text span{
+    color: #005bcf;
+}
+
+.header_text .header_second_text{
+    text-align: end;
+}
+
+.section1_img{
+    overflow: hidden;
+
+}
+
+.section1_img{
+    max-width: 625px;
+}
+
+.section1_text_img img{
+    max-width: 150px;
+}
+
+.section1_heading{
+    display: flex;
+}
+
+.section1_heading .section1_btn button{
+    background-color: #005bcf;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 4px 15px;
+    margin-right: 12px;
+}
+
+.section1_heading h1{
+    font-size: 60px;
+    color: #fff;
+}
+
+.section1_social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.section1_social ul{
+    list-style-type: none;
+}
+
+.section1_social ul li{
+    background-color: #005bcf;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    padding-left: 12px;
+    padding-top: 8px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.tifi_token p{
+    color: #fff;
+    margin-top: 20px;
+
+}
+
+.tifi_token p span{
+    background-color: #005bcf;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 4px 15px;
+    margin-right: 12px;
+    margin-left: 5px;
+}
+
+.section2_img{
+    max-width: 650px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.section2_text h1{
+    color: #fff;
+    font-weight: 600;
+}
+
+.section2_text h1 span{
+    color: #005bcf;
+}
+
+.section2_text p{
+    color: #fff;
+    margin: 0;
+}
+
+.section2_text_btn{
+    display: flex;
+    justify-content: end;
+}
+
+.section2_text_btn button{
+    background-color: #005bcf;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 4px 15px;
+    margin-right: 12px;
+}
+
+.carousel_main{
+    background-image: url('./images/carousel_bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.carousel_main h1{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.burns_section{
+    background-image: url('./images/section3_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.burn_heading span{
+    color: #005bcf;
+}
+
+.burn_heading{
+    color: #fff;
+    font-weight: 600;
+}
+
+.burn_text{
+    color: #fff;
+}
+
+.burns_section .col-md-3{
+    margin-right: 15px;
+}
+
+.Tokenomics_section{
+    background-image: url('./images/carousel_bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.Tokenomics_section h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.token_heading{
+    color: #fff;
+}
+
+.footer_social{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_social ul{
+    display: flex;
+    list-style-type: none;
+}
+
+
+.footer_social ul li{
+    background-color: #005bcf;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    padding-left: 12px;
+    padding-top: 8px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+
+.tifi_tech{
+    padding: 50px 0;
+}
+
+.tifi_tech h1, .tifi_tech h5{
+    text-align: center;
+}
