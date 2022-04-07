@@ -5,6 +5,10 @@
 }
 
 
+img {
+    max-width: 100%;
+}
+
 .main_section{
     background-image: url('./images/section1_bg.jpg');
     background-position: top;
@@ -145,7 +149,7 @@
 }
 
 .carousel_main{
-    background-image: url('./images/carousel_bg2.jpg');
+    background-image: url('./images/carousel_bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,7 +189,7 @@
 }
 
 .Tokenomics_section{
-    background-image: url('./images/carousel_bg2.jpg');
+    background-image: url('./images/full_men.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,6 +204,7 @@
 
 .token_heading{
     color: #fff;
+    font-size: 22px;
 }
 
 .footer_social{
@@ -230,6 +235,120 @@
     padding: 50px 0;
 }
 
-.tifi_tech h1, .tifi_tech h5{
+.tifi_tech h1, .tifi_tech p{
     text-align: center;
+}
+
+.tifi_ecosystem{
+    color: #fff;
+    padding-top: 200px;
+}
+
+.continue_btn{
+    background-color: #005bcf;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-right: 12px;
+}
+
+.token_details{
+    padding-bottom: 500px;
+}
+
+.continue_btn_col{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.slick-slide img {
+    display: block;
+    width: auto;
+    margin: auto;
+}
+
+.tifi_ecosystem h4{
+    font-weight: 700;
+}
+
+.tifi_ecosystem p{
+    font-size: 16px;
+    margin: 0;
+}
+
+.progress_btn{
+    background-color: #005bcf;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 4px;
+    border-radius: 10px;
+    border: none;
+}
+
+.tifi_tech{
+    background-image: url('./images/tifi_tech.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.back_top{
+    background-color: #005bcf;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 6px 44px;
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: #111;
+    padding: 0 0 20px 0;
+    color: #fff;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 15px;
+    letter-spacing: .5px;
+    margin-bottom: 0;
+}
+
+footer a{
+    color: #fff;
+}
+
+.moonmap{
+    color: #fff;
+    text-align: center;
+}
+
+.dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.dot img {
+    width: 17px;
+    padding-top: 5px;
 }
