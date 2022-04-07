@@ -340,15 +340,66 @@ footer a{
     text-align: center;
 }
 
-.dot{
-    width: 30px;
-    height: 30px;
-    border-radius: 100px;
-    background-color: #fff;
-    text-align: center;
-}
-
 .dot img {
     width: 17px;
     padding-top: 5px;
+}
+
+.dot {
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+    text-align: center;
+    margin: 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-track {
+    display: flex !important;
+    align-items: start !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.dot span {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background: rgb(255 255 255);
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.slick-initialized .slick-slide {
+    padding: 10px 0;
+}
+
+
+
+.moonmap.slick-slide.slick-current.slick-active .dot span {
+    width: 40px;
+    height: 40px;
+    outline: 1px solid white;
+    outline-offset: 4px;
+}
+
+
+
+.moonmap.slick-slide.slick-current.slick-active .dot img {
+    padding-top: 0;
+}
+
+.moonmap h5{
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.moonmap p{
+    font-size: 14px;
+    margin: 10px;
+    font-weight: 400;
 }
