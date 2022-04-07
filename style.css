@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -9,85 +9,84 @@ img {
     max-width: 100%;
 }
 
-.main_section{
+.main_section {
     background-image: url('./images/section1_bg.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: inherit;
 }
 
-.container{
+.container {
     max-width: 90%;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    flex-wrap: wrap;
+    padding: 30px 15px;
 }
 
-.header img{
+.header img {
     max-width: 250px;
     height: 50px;
 }
 
-.header_text p{
+.header_text p {
     margin: 0;
     font-weight: 600;
     color: #fff;
 }
 
-.header_text span{
+.header_text span {
     color: #005bcf;
 }
 
-.header_text .header_second_text{
+.header_text .header_second_text {
     text-align: end;
 }
 
-.section1_img{
+.section1_img {
     overflow: hidden;
 
 }
 
-.section1_img{
-    max-width: 625px;
-}
 
-.section1_text_img img{
+.section1_text_img img {
     max-width: 150px;
 }
 
-.section1_heading{
+.section1_heading {
     display: flex;
 }
 
-.section1_heading .section1_btn button{
+.section1_heading .section1_btn button {
     background-color: #005bcf;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 4px 15px;
     margin-right: 12px;
+    margin-bottom: 12px;
 }
 
-.section1_heading h1{
+.section1_heading h1 {
     font-size: 60px;
     color: #fff;
 }
 
-.section1_social{
+.section1_social {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 35px;
 }
 
-.section1_social ul{
+.section1_social ul {
     list-style-type: none;
 }
 
-.section1_social ul li{
+.section1_social ul li {
     background-color: #005bcf;
     width: 40px;
     height: 40px;
@@ -98,48 +97,54 @@ img {
     margin-bottom: 15px;
 }
 
-.tifi_token p{
+.tifi_token {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.tifi_token p {
     color: #fff;
     margin-top: 20px;
 
 }
 
-.tifi_token p span{
+.tifi_token h5 {
     background-color: #005bcf;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 4px 15px;
-    margin-right: 12px;
+    font-size: 16px;
     margin-left: 5px;
 }
 
-.section2_img{
-    max-width: 650px;
+.section2_img {
     margin-right: 0;
     margin-left: auto;
 }
 
-.section2_text h1{
+.section2_text h1 {
     color: #fff;
     font-weight: 600;
 }
 
-.section2_text h1 span{
+.section2_text h1 span {
     color: #005bcf;
 }
 
-.section2_text p{
+.section2_text p {
     color: #fff;
     margin: 0;
 }
 
-.section2_text_btn{
+.section2_text_btn {
     display: flex;
     justify-content: end;
 }
 
-.section2_text_btn button{
+.section2_text_btn button {
     background-color: #005bcf;
     color: #fff;
     border: 1px solid #fff;
@@ -148,7 +153,7 @@ img {
     margin-right: 12px;
 }
 
-.carousel_main{
+.carousel_main {
     background-image: url('./images/carousel_bg.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -156,14 +161,14 @@ img {
     padding: 50px 0;
 }
 
-.carousel_main h1{
+.carousel_main h1 {
     text-align: center;
     color: #fff;
     margin: 0;
     margin-bottom: 30px;
 }
 
-.burns_section{
+.burns_section {
     background-image: url('./images/section3_bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -171,24 +176,24 @@ img {
     padding: 50px 0;
 }
 
-.burn_heading span{
+.burn_heading span {
     color: #005bcf;
 }
 
-.burn_heading{
+.burn_heading {
     color: #fff;
     font-weight: 600;
 }
 
-.burn_text{
+.burn_text {
     color: #fff;
 }
 
-.burns_section .col-md-3{
+.burns_section .col-md-3 {
     margin-right: 15px;
 }
 
-.Tokenomics_section{
+.Tokenomics_section {
     background-image: url('./images/full_men.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -196,30 +201,33 @@ img {
     padding: 50px 0;
 }
 
-.Tokenomics_section h1{
+.Tokenomics_section h1 {
     text-align: center;
     color: #fff;
     margin-bottom: 40px;
+    font-weight: 800;
+    font-size: 50px;
 }
 
-.token_heading{
+.token_heading {
     color: #fff;
     font-size: 22px;
 }
 
-.footer_social{
+.footer_social {
     margin-top: 30px;
     display: flex;
     justify-content: center;
 }
 
-.footer_social ul{
+.footer_social ul {
     display: flex;
     list-style-type: none;
+    padding: 0;
 }
 
 
-.footer_social ul li{
+.footer_social ul li {
     background-color: #005bcf;
     width: 40px;
     height: 40px;
@@ -231,20 +239,21 @@ img {
 }
 
 
-.tifi_tech{
+.tifi_tech {
     padding: 50px 0;
 }
 
-.tifi_tech h1, .tifi_tech p{
+.tifi_tech h1,
+.tifi_tech p {
     text-align: center;
 }
 
-.tifi_ecosystem{
+.tifi_ecosystem {
     color: #fff;
     padding-top: 200px;
 }
 
-.continue_btn{
+.continue_btn {
     background-color: #005bcf;
     color: #fff;
     font-weight: 600;
@@ -254,11 +263,11 @@ img {
     margin-right: 12px;
 }
 
-.token_details{
+.token_details {
     padding-bottom: 500px;
 }
 
-.continue_btn_col{
+.continue_btn_col {
     display: flex;
     justify-content: center;
     margin-top: 70px;
@@ -279,16 +288,16 @@ img {
     margin: auto;
 }
 
-.tifi_ecosystem h4{
+.tifi_ecosystem h4 {
     font-weight: 700;
 }
 
-.tifi_ecosystem p{
+.tifi_ecosystem p {
     font-size: 16px;
     margin: 0;
 }
 
-.progress_btn{
+.progress_btn {
     background-color: #005bcf;
     color: #fff;
     font-size: 12px;
@@ -297,7 +306,7 @@ img {
     border: none;
 }
 
-.tifi_tech{
+.tifi_tech {
     background-image: url('./images/tifi_tech.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -306,7 +315,20 @@ img {
     color: #fff;
 }
 
-.back_top{
+.moonmap_main {
+    background-image: url('./images/moonmap_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.moonmap_main h1 {
+    text-align: center;
+}
+
+.back_top {
     background-color: #005bcf;
     color: #fff;
     font-weight: 600;
@@ -314,7 +336,6 @@ img {
     border-radius: 5px;
     padding: 6px 44px;
     font-size: 12px;
-    margin-left: 25px;
 }
 
 footer {
@@ -331,18 +352,13 @@ footer p {
     margin-bottom: 0;
 }
 
-footer a{
+footer a {
     color: #fff;
 }
 
-.moonmap{
+.moonmap {
     color: #fff;
     text-align: center;
-}
-
-.dot img {
-    width: 17px;
-    padding-top: 5px;
 }
 
 .dot {
@@ -389,17 +405,179 @@ footer a{
 
 
 
-.moonmap.slick-slide.slick-current.slick-active .dot img {
-    padding-top: 0;
+.moonmap h5 {
+    font-size: 18px;
+    font-weight: 700;
 }
 
-.moonmap h5{
-   font-size: 18px;
-   font-weight: 700;
-}
-
-.moonmap p{
+.moonmap p {
     font-size: 14px;
     margin: 10px;
     font-weight: 400;
+}
+
+.dot span img {
+    width: 0;
+    padding: 0;
+}
+
+.moonmap.slick-slide.slick-current.slick-active .dot img {
+    padding-top: 0;
+    width: auto;
+    max-width: 20px;
+}
+
+.dot {
+    height: 40px;
+}
+
+.move .slick-list {
+    position: relative;
+}
+
+.move .slick-list::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background: white;
+    top: 30px;
+    height: 1px;
+}
+
+.slick-dots .slick-active button {
+    border: 2px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #fff;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 7px;
+    line-height: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.token_details .col-md-3 {
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+    .section1_social {
+        display: none;
+    }
+
+    .section1_text_img {
+        text-align: center;
+    }
+
+    .section1_heading h1 {
+        font-size: 30px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .section1_btn {
+        text-align: center;
+    }
+
+    .tifi_token h5 {
+        font-size: 12px;
+    }
+
+    .section2_text {
+        text-align: center;
+    }
+
+    .section2_text_btn {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .tifi_token h1 {
+        font-size: 25px;
+        margin-bottom: 25px;
+
+    }
+
+    .tifi_tech p {
+        font-size: 15px;
+    }
+
+    .Tokenomics_section h1 {
+        font-size: 30px;
+    }
+
+    .tifi_ecosystem {
+        padding-top: 20px;
+    }
+
+    .token_details {
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .token_details .col-md-3 {
+        margin-right: 0;
+    }
+
+    .section2_text h1 {
+        font-size: 25px;
+    }
+
+    .section2_text p {
+        font-size: 13px;
+    }
+
+    .section2_text_btn button {
+        margin-top: 20px;
+    }
+
+    .burns_section .col-md-3 {
+        text-align: center;
+    }
+
+    .header_text .header_second_text {
+        text-align: center;
+    }
+
+    .header_text {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .Tokenomics_section {
+        background-image: url('./images/section1_bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0;
+        margin-top: -2px;
+    }
+
+    .continue_btn_col{
+        margin-top: 35px;
+    }
+
+    .section2_row{
+        flex-direction: column-reverse;
+    }
+
+
 }
