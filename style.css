@@ -24,7 +24,7 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 30px 15px;
+    padding: 30px 0;
 }
 
 .header img {
@@ -66,7 +66,7 @@ img {
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 4px 15px;
-    margin-right: 12px;
+    margin-right: 6px;
     margin-bottom: 12px;
 }
 
@@ -91,10 +91,11 @@ img {
     width: 40px;
     height: 40px;
     border-radius: 100px;
-    padding-left: 12px;
-    padding-top: 8px;
+    padding-left: 0;
+    padding-top: 10px;
     color: #fff;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .tifi_token {
@@ -232,7 +233,7 @@ img {
     width: 40px;
     height: 40px;
     border-radius: 100px;
-    padding-left: 12px;
+    text-align: center;
     padding-top: 8px;
     color: #fff;
     margin-right: 15px;
@@ -497,7 +498,8 @@ footer a {
     }
 
     .tifi_token h5 {
-        font-size: 12px;
+        font-size: 10px;
+        margin-right: 5px;
     }
 
     .section2_text {
@@ -580,4 +582,21 @@ footer a {
     }
 
 
+}
+
+.tifi_eco_img_section{
+    text-align: center;
+}
+
+.tifi_eco_img_section img{
+		animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+		from {
+				transform: rotate(0deg);
+		}
+		to {
+				transform: rotate(359deg);
+		}
 }
