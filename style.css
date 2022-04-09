@@ -478,6 +478,43 @@ footer a {
     margin-bottom: 30px;
 }
 
+.section4 {
+    background-image: url('./images/section3_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.section4 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.slick-carousel,
+.move {
+    cursor: pointer;
+}
+
+.tifi_allverse h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.tifi_allverse p {
+    font-size: 16px;
+}
+
+.eco_row_img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.tifi_allverse_img{
+    width: 500px;
+}
+
 @media (max-width: 1200px) {
     .section1_social {
         display: none;
@@ -512,6 +549,11 @@ footer a {
 }
 
 @media (max-width: 767px) {
+
+    .make_row_reserve{
+        flex-direction: column-reverse;
+    }
+    
     .tifi_token h1 {
         font-size: 25px;
         margin-bottom: 25px;
@@ -573,30 +615,31 @@ footer a {
         margin-top: -2px;
     }
 
-    .continue_btn_col{
+    .continue_btn_col {
         margin-top: 35px;
     }
 
-    .section2_row{
+    .section2_row {
         flex-direction: column-reverse;
     }
 
 
 }
 
-.tifi_eco_img_section{
+.tifi_eco_img_section {
     text-align: center;
 }
 
-.tifi_eco_img_section img{
-		animation: rotation 20s infinite linear;
+.tifi_eco_img_section img {
+    animation: rotation 20s infinite linear;
 }
 
 @keyframes rotation {
-		from {
-				transform: rotate(0deg);
-		}
-		to {
-				transform: rotate(359deg);
-		}
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
 }
