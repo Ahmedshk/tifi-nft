@@ -561,7 +561,7 @@ footer a {
     }
 
     .tifi_token_main h5 {
-        font-size: 10px;
+        font-size: 10px !important;
         margin-right: 5px;
     }
 
