@@ -199,6 +199,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     padding: 50px 0;
 }
 
@@ -479,13 +480,10 @@ footer a {
 }
 
 .section4 {
-    /* background-image: url('./images/section3_bg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-image: linear-gradient(to right, #00023D, #010012, #000);
     padding: 50px 0;
     color: #fff;
+    overflow: hidden;
 }
 
 .section4 h1 {
@@ -578,6 +576,11 @@ footer a {
 
 @media (max-width: 767px) {
 
+    .dex_bg, .tifi_token, .tifi_app, .nft_bg{
+        margin: 15px;    
+    }
+    
+
     .make_row_reserve{
         flex-direction: column-reverse;
     }
@@ -640,6 +643,7 @@ footer a {
         background-repeat: no-repeat;
         background-size: cover;
         padding: 50px 0;
+        overflow: hidden;
         margin-top: -2px;
     }
 
