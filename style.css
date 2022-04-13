@@ -98,20 +98,20 @@ img {
     text-align: center;
 }
 
-.tifi_token {
+.tifi_token_main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
 }
 
-.tifi_token p {
+.tifi_token_main p {
     color: #fff;
     margin-top: 20px;
 
 }
 
-.tifi_token h5 {
+.tifi_token_main h5 {
     background-color: #005bcf;
     color: #fff;
     border: 1px solid #fff;
@@ -560,7 +560,7 @@ footer a {
         text-align: center;
     }
 
-    .tifi_token h5 {
+    .tifi_token_main h5 {
         font-size: 10px;
         margin-right: 5px;
     }
