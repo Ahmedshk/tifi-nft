@@ -576,6 +576,10 @@ footer a {
 
 @media (max-width: 767px) {
 
+    .section1_text_img{
+        display: none;
+    }
+
     .dex_bg, .tifi_token, .tifi_app, .nft_bg{
         margin: 15px;    
     }
