@@ -13,7 +13,7 @@ img {
     background-image: url('./images/section1_bg.jpg');
     background-position: top;
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: cover;
 }
 
 .container {
@@ -114,7 +114,7 @@ img {
 .tifi_token_main p {
     color: #fff !important;
     margin-top: 20px !important;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .tifi_token_main .tifi_token_copy {
@@ -122,9 +122,9 @@ img {
     color: #fff !important;
     border: 1px solid #fff !important;
     border-radius: 5px !important;
-    padding: 4px 15px !important;
+    padding: 4px 21px !important;
     font-size: 16px !important;
-    margin-left: 5px !important;
+    margin-left: 10px !important;
     display: flex !important;
     position: relative;
 }
