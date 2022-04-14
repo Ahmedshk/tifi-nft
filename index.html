@@ -27,6 +27,8 @@
     <title>TiFi</title>
 </head>
 
+
+
 <body oncontextmenu="return false">
     <div class="main_section">
         <!-- -------------------------------header------------------------- -->
@@ -74,7 +76,18 @@
 
                             <div class="tifi_token_main">
                                 <p>TiFi Token Contact: </p>
-                                <h5>0x17E65E6b9B166Fb8e7c59432F0db126711246BC0</h5>
+                                <div class="tifi_token_copy">
+                                    <a id="address-link">0x17E65E6b9B166Fb8e7c59432F0db126711246BC0</a>
+                                    <img id="tooltip-img" src="./images/copy.png" />
+                                    <span class="tooltiptext">Address Copied!</span>
+                                </div>
+                            </div>
+
+                            <div class="all_header_icon">
+                                <img class="header_icon" src="./images/coin_market.png" />
+                                <img class="header_icon" src="./images/coin_gecko.png" />
+                                <img class="header_icon" src="./images/poocoin.png" />
+                                <img class="header_icon" src="./images/dextools.png" />
                             </div>
                         </div>
                     </div>
@@ -338,68 +351,71 @@
     <div class="moonmap_main">
         <h1>Moonmap</h1>
 
-        <div class="my-4">
-            <div class="move">
-                <div class="moonmap">
-                    <div class="dot"><span><img src="./images/rocket.png" /></span></div>
-                    <h5>March 2022</h5>
-                    <p>Launch TiFi Website <br /> Completed</p>
-                    <p>Marketing Completed</p>
-                    <p>Release TiFi Token on BSC <br /> Completed</p>
-                    <p>TiFi Audited by CertiK <br /> Completed</p>
-                    <p>TiFi Token Presale <br /> Completed </p>
-                </div>
-                <div class="moonmap">
-                    <div class="dot"><span><img src="./images/rocket.png" /></span></div>
-                    <h5>April - June 2022</h5>
-                    <p>List TiFi Token on Major <br /> Exchange In-Progress</p>
-                    <p>List TiFi Token on CG and <br /> CMC In-Progress</p>
-                    <p>Marketing In-Progress</p>
-                    <p>TiFi Token Burn Events <br /> In-Progress</p>
-                </div>
-                <div class="moonmap">
-                    <div class="dot"><span><img src="./images/rocket.png" /></span></div>
-                    <h5>July - September 2022</h5>
-                    <p>TiFi Bank v1 goes alive: <br /> boosted staking rewards <br /> plus reflection Planned</p>
-                    <p>TiFi Bank v2 goes alive: <br /> decentralized exchange <br /> platform Planned</p>
-                    <p>Marketing</p>
-                </div>
-                <div class="moonmap">
-                    <div class="dot"><span><img src="./images/rocket.png" /></span></div>
-                    <h5>After September 2022 (Planning...)</h5>
-                    <p>TiFi NFT Products, Mobile <br /> Apps and more ...</p>
-                </div>
-                <div class="moonmap">
-                    <div class="dot"><span><img src="./images/rocket.png" /></span></div>
-                    <h5>March 2022</h5>
-                    <p>Launch TiFi Website <br /> Completed</p>
-                    <p>Marketing Completed</p>
-                    <p>Release TiFi Token on BSC Completed</p>
-                    <p>TiFi Audited by CertiK Completed</p>
-                    <p>TiFi Token Presale Completed </p>
-                </div>
-                <div class="moonmap">
-                    <div class="dot"><span><img src="./images/rocket.png" /></span></div>
-                    <h5>April - June 2022</h5>
-                    <p>List TiFi Token on Major Exchange In-Progress</p>
-                    <p>List TiFi Token on CG and CMC In-Progress</p>
-                    <p>Marketing In-Progress</p>
-                    <p>TiFi Token Burn Events In-Progress</p>
-                </div>
-                <div class="moonmap">
-                    <div class="dot"><span><img src="./images/rocket.png" /></span></div>
-                    <h5>July - September 2022</h5>
-                    <p>TiFi Bank v1 goes alive: boosted staking rewards plus reflection Planned</p>
-                    <p>TiFi Bank v2 goes alive: decentralized exchange platform Planned</p>
-                    <p>Marketing</p>
-                </div>
-                <div class="moonmap">
-                    <div class="dot"><span><img src="./images/rocket.png" /></span></div>
-                    <h5>After September 2022 (Planning...)</h5>
-                    <p>TiFi NFT Products, Mobile Apps and more ...</p>
+        <div class="container">
+            <div class="my-4">
+                <div class="move">
+                    <div class="moonmap">
+                        <div class="dot"><span><img src="./images/rocket.png" /></span></div>
+                        <h5>March 2022</h5>
+                        <p>Launch TiFi Website <br /> Completed</p>
+                        <p>Marketing Completed</p>
+                        <p>Release TiFi Token on BSC <br /> Completed</p>
+                        <p>TiFi Audited by CertiK <br /> Completed</p>
+                        <p>TiFi Token Presale <br /> Completed </p>
+                    </div>
+                    <div class="moonmap">
+                        <div class="dot"><span><img src="./images/rocket.png" /></span></div>
+                        <h5>April - June 2022</h5>
+                        <p>List TiFi Token on Major <br /> Exchange In-Progress</p>
+                        <p>List TiFi Token on CG and <br /> CMC In-Progress</p>
+                        <p>Marketing In-Progress</p>
+                        <p>TiFi Token Burn Events <br /> In-Progress</p>
+                    </div>
+                    <div class="moonmap">
+                        <div class="dot"><span><img src="./images/rocket.png" /></span></div>
+                        <h5>July - September 2022</h5>
+                        <p>TiFi Bank v1 goes alive: <br /> boosted staking rewards <br /> plus reflection Planned</p>
+                        <p>TiFi Bank v2 goes alive: <br /> decentralized exchange <br /> platform Planned</p>
+                        <p>Marketing</p>
+                    </div>
+                    <div class="moonmap">
+                        <div class="dot"><span><img src="./images/rocket.png" /></span></div>
+                        <h5>After September 2022 (Planning...)</h5>
+                        <p>TiFi NFT Products, Mobile <br /> Apps and more ...</p>
+                    </div>
+                    <div class="moonmap">
+                        <div class="dot"><span><img src="./images/rocket.png" /></span></div>
+                        <h5>March 2022</h5>
+                        <p>Launch TiFi Website <br /> Completed</p>
+                        <p>Marketing Completed</p>
+                        <p>Release TiFi Token on BSC Completed</p>
+                        <p>TiFi Audited by CertiK Completed</p>
+                        <p>TiFi Token Presale Completed </p>
+                    </div>
+                    <div class="moonmap">
+                        <div class="dot"><span><img src="./images/rocket.png" /></span></div>
+                        <h5>April - June 2022</h5>
+                        <p>List TiFi Token on Major Exchange In-Progress</p>
+                        <p>List TiFi Token on CG and CMC In-Progress</p>
+                        <p>Marketing In-Progress</p>
+                        <p>TiFi Token Burn Events In-Progress</p>
+                    </div>
+                    <div class="moonmap">
+                        <div class="dot"><span><img src="./images/rocket.png" /></span></div>
+                        <h5>July - September 2022</h5>
+                        <p>TiFi Bank v1 goes alive: boosted staking rewards plus reflection Planned</p>
+                        <p>TiFi Bank v2 goes alive: decentralized exchange platform Planned</p>
+                        <p>Marketing</p>
+                    </div>
+                    <div class="moonmap">
+                        <div class="dot"><span><img src="./images/rocket.png" /></span></div>
+                        <h5>After September 2022 (Planning...)</h5>
+                        <p>TiFi NFT Products, Mobile Apps and more ...</p>
+                    </div>
                 </div>
             </div>
         </div>
+        
 
     </div>
 
@@ -468,6 +484,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
 
     <script>
+        document.getElementById('tooltip-img').addEventListener('click', function () {
+            let p = this.parentElement.classList;
+            if (p.contains('active')) {
+                p.remove('active');
+            } else {
+                var addrLink = document.getElementById("address-link");
+                navigator.clipboard.writeText(addrLink.innerText);
+                p.add('active');
+                setTimeout(function () { p.remove('active') }, 1000);
+                
+            }
+        });
+
+
         document.onkeydown = function (e) {
             if (event.keyCode == 123) {
                 return false;
@@ -490,7 +520,7 @@
             infinite: true,
             slidesToShow: 3, // Shows a three slides at a time
             slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
-            arrows: false, // Adds arrows to sides of slider
+            arrows: true, // Adds arrows to sides of slider
             dots: true, // Adds the dots on the bottom
             autoplay: false,
             autoplaySpeed: 300,
@@ -521,18 +551,18 @@
                 },
             ],
         });
-        $('.slick-carousel').mouseover(function () {
-            $(this).slick('play')
-        });
-        $('.slick-carousel').mouseout(function () {
-            $(this).slick('pause')
-        });
+        // $('.slick-carousel').mouseover(function () {
+        //     $(this).slick('play')
+        // });
+        // $('.slick-carousel').mouseout(function () {
+        //     $(this).slick('pause')
+        // });
 
         $('.move').slick({
             infinite: true,
             slidesToShow: 4, // Shows a three slides at a time
             slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
-            arrows: false, // Adds arrows to sides of slider
+            arrows: true, // Adds arrows to sides of slider
             dots: true, // Adds the dots on the bottom
             autoplay: false,
             autoplaySpeed: 300,
@@ -563,12 +593,12 @@
                 },
             ],
         });
-        $('.move').mouseover(function () {
-            $(this).slick('play')
-        });
-        $('.move').mouseout(function () {
-            $(this).slick('pause')
-        });
+        // $('.move').mouseover(function () {
+        //     $(this).slick('play')
+        // });
+        // $('.move').mouseout(function () {
+        //     $(this).slick('pause')
+        // });
 
     </script>
 
