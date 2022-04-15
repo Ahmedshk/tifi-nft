@@ -29,7 +29,7 @@
 
 <!-- oncontextmenu="return false" -->
 
-<body >
+<body>
     <div class="main_section">
         <!-- -------------------------------header------------------------- -->
         <div class="container">
@@ -415,7 +415,7 @@
                 </div>
             </div>
         </div>
-        
+
 
     </div>
 
@@ -438,7 +438,7 @@
                 </ul>
             </div>
             <div class="text-center mt-2">
-                <button class="back_top">BACK TO THE TOP</button>
+                <button id="topBtn" class="back_top">BACK TO THE TOP</button>
             </div>
 
         </div>
@@ -447,11 +447,11 @@
     <footer>
         <div class="container">
             <div class="row justify-content-center align-self-center">
-                <p><a class="p-3" href="about/terms-of-use.html">Term of Use</a>
-                    <a class="p-3" href="about/privacy-policy.html">Privacy Policy</a>
-                    <a class="p-3" href="about/cookie-policy.html">Cookies Policy</a>
-                    <a class="p-3" href="about/disclaimer.html">Disclaimer</a>
-                    <a class="p-3" href="about/faq.html">FAQ</a>
+                <p><a class="p-3" href="#">Term of Use</a>
+                    <a class="p-3" href="#">Privacy Policy</a>
+                    <a class="p-3" href="#">Cookies Policy</a>
+                    <a class="p-3" href="#">Disclaimer</a>
+                    <a class="p-3" href="#">FAQ</a>
                 </p>
             </div>
             <div class="row">
@@ -493,7 +493,7 @@
                 navigator.clipboard.writeText(addrLink.innerText);
                 p.add('active');
                 setTimeout(function () { p.remove('active') }, 1000);
-                
+
             }
         });
 
@@ -599,6 +599,14 @@
         // $('.move').mouseout(function () {
         //     $(this).slick('pause')
         // });
+
+        var btn = $('#topBtn');
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '1000');
+        });
+
 
     </script>
 
